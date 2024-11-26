@@ -1,6 +1,9 @@
 # Игнорируем папку target
 target/
 
+# Исключаем из игнорирования папку с результатами Allure
+!target/allure-results/
+
 # Исключаем из игнорирования maven wrapper
 !.mvn/wrapper/maven-wrapper.jar
 
