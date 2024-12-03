@@ -1,0 +1,21 @@
+/target/classes/
+/target/generated-sources/
+/target/generated-test-sources/
+/target/maven-status/
+/target/test-classes/
+
+# Исключаем из игнорирования maven wrapper
+!.mvn/wrapper/maven-wrapper.jar
+
+# Исключаем из игнорирования папки target внутри src
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
